@@ -17,4 +17,11 @@
 | M      | Scroll to middle                     |
 | L      | Scroll to Bottom                     |
 
-### 
+### Modes
+
+| key            | What it does                     |
+|----------------|----------------------------------|
+| ESC            | normal mode (shortcut mode)      |
+| i              | Insert Mode (Typing mod)         |
+| esc-v, ctrl +V | visual mode (copy-paste modes)   |
+| ESC:           | command mode (terminal mode)     |
