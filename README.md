@@ -25,3 +25,14 @@
 | i              | Insert Mode (Typing mod)         |
 | esc-v, ctrl +V | visual mode (copy-paste modes)   |
 | ESC:           | command mode (terminal mode)     |
+
+
+### Save & Exit
+
+| key   | What it does                                   |
+|-------|------------------------------------------------|
+| :w    | Write file & don't quit                        |
+| :wq   | Write & quit                                   |
+| :q    | Quit                                           |
+| :q!   | Force quit (quit dicarding all changes made)   |
+
