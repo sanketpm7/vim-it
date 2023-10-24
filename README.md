@@ -21,10 +21,10 @@
 
 | key            | What it does                     |
 |----------------|----------------------------------|
-| ESC            | normal mode (shortcut mode)      |
+| esc            | normal mode (shortcut mode)      |
 | i              | Insert Mode (Typing mod)         |
 | esc-v, ctrl +V | visual mode (copy-paste modes)   |
-| ESC:           | command mode (terminal mode)     |
+| esc:           | command mode (terminal mode)     |
 
 
 ### Save & Exit
@@ -36,3 +36,22 @@
 | :q    | Quit                                           |
 | :q!   | Force quit (quit dicarding all changes made)   |
 
+
+### Delete
+
+| key   | What it does                                   |
+|-------|------------------------------------------------|
+| x     | Delete the character cursor is on              |
+| dw    | Delete word (cursor on first char of word)     |
+| db    | Delete previous word                           |
+| daw   | delete around word.                            |
+| diw   | delete internal                                |
+| `di(` | Delete within brackets                         |
+| `da(` | Delete with brackts                            |
+| dd    | Delete line                                    |
+| d$    | Delete till the end of the line                |
+| `d} ` | Delete till the next para                      |
+| `d{ ` | Delete till the previous para                  |
+|  D    | Delete to the end of the line                  |
+
+> I use: `c` instead of `d` most of the time, since c -> deletes the word & puts the cursor in spot.
